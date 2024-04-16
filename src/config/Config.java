@@ -22,7 +22,13 @@ public class Config {
 	public boolean isAutoRemoveTranh;
 	public boolean isAutoCayThan;
 	public boolean isLiaQuai; // Chức năng này là cái gì ?
-
+	/
+	* Khi train trên bãi thỉnh thoảng sẽ gặp 1 con Monster quá tầm đánh của skill
+	Nhiều Moder đã Mod lại phần tầm đánh cho xa ở class_qz để pk  thay vì bình thường không đủ tầm đánh => nhân vật sẽ chạy lại gần hơn 
+	Nhưng do chỉnh sửa để phù hợp với mục đích . Nhiều khi gặp phải con Monster quá tầm đánh =>Atack liên tục vào => Không được gì vì ko đủ tầm đánh ko gây được dame => Cái này mục đích sẽ chuyển mục tiêu Monster tránh lỗi đó
+	@Umaru
+	*
+	/
 	public class AutoChatConfig {
 		public String content = "KPAH TEAMOBI";
 		public int delay;
